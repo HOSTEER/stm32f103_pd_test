@@ -1,0 +1,3 @@
+[submodule "stm32f103_project/Externals_libs/usb-pd"]
+	path = stm32f103_project/Externals_libs/usb-pd
+	url = git@github.com:Ralim/usb-pd.git
