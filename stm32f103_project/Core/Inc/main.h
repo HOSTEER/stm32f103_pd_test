@@ -61,6 +61,8 @@ void Error_Handler(void);
 #define UART_TX_GPIO_Port GPIOA
 #define UART_RX_Pin GPIO_PIN_3
 #define UART_RX_GPIO_Port GPIOA
+#define CHRG_EN_Pin GPIO_PIN_12
+#define CHRG_EN_GPIO_Port GPIOA
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
