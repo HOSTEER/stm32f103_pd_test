@@ -54,7 +54,16 @@ void pd_user_main() {
 	}
 }
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-	irqoccured = true;
+	switch(GPIO_Pin){
+		case FUSB_IRQ_Pin:
+			irqoccured = true;
+			break;
+		case BTN_Pin:
+			HAL_GPIO_TogglePin(OUT_EN_GPIO_Port, OUT_EN_Pin);
+			break;
+		default:
+			printf(">EXTI entered default case \r\n");
+	}
 }
 /* The current draw when the output is disabled */
 #define DPM_MIN_CURRENT PD_MA2PDI(100)
