@@ -1,12 +1,12 @@
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:24:6:void FUSB302::fusb_send_message(const pd_msg*) const	1
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:63:6:bool FUSB302::fusb_rx_pending() const	1
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:68:9:uint8_t FUSB302::fusb_read_message(pd_msg*) const	3
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:97:6:void FUSB302::fusb_send_hardrst() const	1
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:103:6:bool FUSB302::fusb_setup() const	14
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:161:6:bool FUSB302::runCCLineSelection() const	8
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:199:6:bool FUSB302::fusb_get_status(fusb_status*) const	1
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:205:25:fusb_typec_current FUSB302::fusb_get_typec_current() const	1
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:214:6:bool FUSB302::fusb_reset() const	4
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:231:6:bool FUSB302::fusb_read_id() const	4
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:250:9:uint8_t FUSB302::fusb_read_byte(uint8_t) const	2
-../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:265:6:bool FUSB302::fusb_write_byte(uint8_t, uint8_t) const	1
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:25:6:void FUSB302::fusb_send_message(const pd_msg*) const	4
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:64:6:bool FUSB302::fusb_rx_pending() const	1
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:69:9:uint8_t FUSB302::fusb_read_message(pd_msg*) const	3
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:98:6:void FUSB302::fusb_send_hardrst() const	1
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:104:6:bool FUSB302::fusb_setup() const	14
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:162:6:bool FUSB302::runCCLineSelection() const	8
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:200:6:bool FUSB302::fusb_get_status(fusb_status*) const	1
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:206:25:fusb_typec_current FUSB302::fusb_get_typec_current() const	1
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:215:6:bool FUSB302::fusb_reset() const	4
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:232:6:bool FUSB302::fusb_read_id() const	4
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:251:9:uint8_t FUSB302::fusb_read_byte(uint8_t) const	2
+../Externals_libs/usb-pd/lib/FUSB302/fusb302b.cpp:266:6:bool FUSB302::fusb_write_byte(uint8_t, uint8_t) const	1
