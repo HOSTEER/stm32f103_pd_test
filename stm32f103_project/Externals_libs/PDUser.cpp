@@ -44,7 +44,7 @@ void pd_user_main() {
 			while (irqoccured == false
 					&& (HAL_GPIO_ReadPin(FUSB_IRQ_GPIO_Port, FUSB_IRQ_Pin)
 							== GPIO_PIN_SET)) {
-				HAL_Delay(3); // Must respond to messages < 20ms, so fast iteration or use an rtos to schedule
+				//HAL_Delay(3); // Must respond to messages < 20ms, so fast iteration or use an rtos to schedule
 			}
 			irqoccured = false;
 			pe.IRQOccured();
@@ -60,6 +60,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 			break;
 		case BTN_Pin:
 			HAL_GPIO_TogglePin(OUT_EN_GPIO_Port, OUT_EN_Pin);
+			HAL_GPIO_TogglePin(EN_12V_GPIO_Port, EN_12V_Pin);
+			HAL_GPIO_TogglePin(LD4_GPIO_Port, LD4_Pin);
 			break;
 		default:
 			printf(">EXTI entered default case \r\n");
